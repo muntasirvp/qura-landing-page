@@ -39,8 +39,3 @@ To design a clean, modern, and responsive landing page that represents **Qura Br
 ## 👨‍💻 Author
 **Muntasir V. P**  
 Frontend Developer | Tech Enthusiast
-
-
----
-
-> _“Empowering India to browse faster, smarter, and safer — with Qura.”_
