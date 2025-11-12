@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Qura Browser – India’s Next-Gen Browser</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3771/3771479.png" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            color: #222;
+            background: #f9fafc;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2563eb, #7e22ce);
+            color: #fff;
+            padding: 100px 20px 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            bottom: -60px;
+            left: 0;
+            width: 100%;
+            height: 120px;
+            background: #f9fafc;
+            border-radius: 50% 50% 0 0;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+            margin-bottom: 25px;
+        }
+
+        header a {
+            display: inline-block;
+            background: #fff;
+            color: #2563eb;
+            padding: 12px 28px;
+            border-radius: 30px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        header a:hover {
+            background: #2563eb;
+            color: #fff;
+            transform: scale(1.05);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+        }
+
+        .features {
+            padding: 80px 20px;
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .features h2 {
+            font-size: 2.2rem;
+            margin-bottom: 50px;
+            color: #111;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: #fff;
+            padding: 35px 25px;
+            border-radius: 18px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-card h3 {
+            color: #2563eb;
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+
+        .feature-card p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        footer {
+            background: #111827;
+            color: #bbb;
+            text-align: center;
+            padding: 30px 15px;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #60a5fa;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #c084fc;
+        }
+
+        footer p {
+            margin-top: 12px;
+            color: #888;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Qura – India’s Next-Gen Browser</h1>
+        <p>Empowering India to browse faster, smarter, and safer with AI-driven innovation.</p>
+        <a href="#">Download Now</a>
+    </header>
+
+    <section class="features" id="features">
+        <h2>Why Choose Qura?</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>⚡ Lightning Speed</h3>
+                <p>Experience ultra-fast browsing with next-gen rendering and low memory usage.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🛡️ Total Privacy</h3>
+                <p>Your data stays yours. Qura blocks trackers and ensures anonymous browsing.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🎁 Rewards for You</h3>
+                <p>Earn points for your time online and redeem them for exclusive digital rewards.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🤖 Built with AI</h3>
+                <p>Smart search, contextual insights, and voice commands — your browser reimagined.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">LinkedIn</a> |
+            <a href="#">Contact Us</a>
+        </div>
+        <p>© 2025 Qura Browser</p>
+    </footer>
+</body>
+
+</html>
